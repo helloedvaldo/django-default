@@ -1,6 +1,6 @@
 ```
-git clone git@github.com:helloedvaldo/django-default.git agendamentos
-cd agendamentos
+git clone git@github.com:helloedvaldo/django-default.git NOME_DO_PROJETO
+cd NOME_DO_PROJETO
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
