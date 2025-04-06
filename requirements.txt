@@ -1,0 +1,7 @@
+python-decouple
+dj-database-url
+dj-static
+django-extensions
+django-test-without-migrations
+django-debug-toolbar
+
