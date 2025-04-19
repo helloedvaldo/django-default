@@ -1,9 +1,9 @@
 ```
-apt install python3.11-venv #(or apt install python3.12-venv)
-git clone git@github.com:helloedvaldo/django-default.git NOME_DO_PROJETO
+apt install python3.13-venv
+git clone https://github.com/helloedvaldo/django-default.git NOME_DO_PROJETO
 cd NOME_DO_PROJETO
-python -m venv .venv #(or python3 -m venv .venv)
-source .venv/bin/activate #(or venv\Scripts\activate)
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 cp contrib/env-sample .env
 ./contrib/secret_gen.py
